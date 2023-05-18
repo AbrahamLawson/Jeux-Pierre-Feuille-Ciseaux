@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    padding: 50px 20px;
+    font-size: 2.5rem;
+}
+h2{
+    padding: 30px 20px;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.1rem;
+}
+#Pierre,#Feuille,#Ciseaux{
+    font-size: 3rem;
+}
+.choix div{
+    display: inline-block;
+    margin: 0 1rem;
+    transition: all 0.4s ease-in-out;
+}
+.choix div:hover{
+    transform: scale(150%);
+    cursor: pointer;
+}
